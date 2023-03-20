@@ -1,41 +1,102 @@
-/*body*/
+/* sayfanın daha düzenli olması ve arka plan rengini ayarlamak için body etiketi açtım*/
 #body{
     text-align: center;
-    background-color: bisque;
+    background-color:white;
     font-family: Arial, Helvetica, sans-serif;
 }
-/*ul*/
-ul{
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-    text-align:justify;
-    margin-left: 38.1%;
+/* resmin sayfada ki konumlandırması için resim etiketi açtım*/
+.resim
+{
+    margin:200px auto 0px;
 }
-/*li*/
-li{
+.kutu1{
+    background-color: gainsboro;
+    height:70px;
+}
+
+form.search {
+    display: flex;
+    width: 70px;
+    margin-left: 500px;
+}
+form.search input {
+    height: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+    font-weight: 50;
+    box-sizing: border-box;
+    padding: 0 70px;
+    flex: 1;
+    outline: 0;
+     
+    
+}
+
+.submit button {
+    margin-right: 150px;
+	background: #0066A2;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 500px;
+	width: 200px;
+	font: bold15px arial,sans-serif;
+	text-shadow: none;
+}
+.article
+{
+ text-align: center;
+ padding-left: 0px;
+ padding-right: 0px;
+}
+.list1{
     float: left;
-
+    margin: 1px 0px;
+    background-color: aqua;
+    width:300px;
+    padding: 19px;
+    padding-right: 100px;
+    padding-left: 50px;
+    font-size: 15px;
 }
-li a{
-    display: block;
-    padding: 14px 16px;
-    text-decoration: none;
-
+.list2{
+    float: left;
+    margin:1px 1px;
+    background-color: rgb(28, 184, 184);
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 100px;
+    font-size: 15px;
 }
-li a:hover{
-    background-color:white;
-    color: black;
+.list3{
+    float: left;
+    margin:1px 1px;
+    background-color: rgb(22, 138, 138);
+    padding-bottom: 13px;
+    padding-left: 200px;
+    padding-right: 160px;
+    font-size: 15px;
 }
-.resim{
-    height: 250px;
-    width: 200px;
+ul li {
+    list-style-type: none;
 }
-.yazi{
-    color: blue;
+form.searc input {
+    height: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+    font-weight: 50;
+    box-sizing: border-box;
+    padding: 0 70px;
+    flex: 0;
+    outline: 0;
+    width: 25px;
+    padding-bottom: 0px;
+    padding-right: 200px;
+    
 }
-.baslik{
-    color: darkgreen;
+.copy
+{
+ margin-right:500px;
 }
